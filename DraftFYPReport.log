@@ -1,0 +1,492 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.11.9)  14 MAR 2011 14:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**DraftFYPReport.tex
+(./DraftFYPReport.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count87
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count88
+\lst@currlwidth=\dimen103
+\lst@column=\count89
+\lst@pos=\count90
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count91
+\lst@lineno=\count92
+\lst@maxwidth=\dimen106
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count93
+\lst@skipnumbers=\count94
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3 `more' verbatim facilities
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks16
+\verbatim@line=\toks17
+\verbatim@in@stream=\read1
+)
+\verbatim@out=\write3
+\tab@position=\count96
+\tab@size=\count97
+\listing@line=\count98
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen109
+\captionmargin@=\dimen110
+\captionwidth=\dimen111
+\caption@indent=\dimen112
+\caption@parindent=\dimen113
+\caption@hangindent=\dimen114
+)
+\c@ContinuedFloat=\count99
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2010/07/10 v2.07 (NLCT)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+\XKV@depth=\count100
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
+Package: mfirstuc 2009/11/03 v1.04 (NLCT)
+\@glsmfirst=\toks20
+\@glsmrest=\toks21
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen115
+)
+\gls@level=\count101
+\@gls@tmpb=\toks23
+\gls@tmplen=\skip43
+\istfile=\write4
+\glskeylisttok=\toks24
+\glslabeltok=\toks25
+\glsshorttok=\toks26
+\glslongtok=\toks27
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2009/05/30 v2.01 (NLCT)
+\glslistdottedwidth=\skip44
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2009/05/30 v2.01 (NLCT)
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count102
+\LTcapwidth=\dimen116
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count103
+\LT@rows=\count104
+\c@LT@tables=\count105
+\c@LT@chunks=\count106
+\LT@p@ftn=\toks28
+)
+\glsdescwidth=\skip49
+\glspagelistwidth=\skip50
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2009/05/30 v2.01 (NLCT)
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count107
+\ST@wd=\dimen117
+\ST@rightskip=\skip51
+\ST@leftskip=\skip52
+\ST@parfillskip=\skip53
+\ST@pageleft=\dimen118
+\ST@headht=\dimen119
+\ST@tailht=\dimen120
+\ST@pagesofar=\dimen121
+\ST@pboxht=\dimen122
+\ST@lineht=\dimen123
+\ST@stretchht=\dimen124
+\ST@prevht=\dimen125
+\ST@toadd=\dimen126
+\ST@dimen=\dimen127
+\ST@pbox=\box32
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2009/01/14 v1.01 (NLCT)
+\glstreeindent=\skip54
+))
+\@indexfile=\write5
+\openout5 = `DraftFYPReport.idx'.
+
+
+Writing index file DraftFYPReport.idx
+\glo@main@file=\write6
+\openout6 = `DraftFYPReport.glo'.
+
+Package glossaries Info: Writing glossary file DraftFYPReport.glo on input line
+ 29.
+\glo@acronym@file=\write7
+\openout7 = `DraftFYPReport.acn'.
+
+Package glossaries Info: Writing glossary file DraftFYPReport.acn on input line
+ 29.
+(./DraftFYPReport.aux
+
+LaTeX Warning: Label `par:First Paragraph' multiply defined.
+
+
+LaTeX Warning: Label `par:First Paragraph' multiply defined.
+
+)
+\openout1 = `DraftFYPReport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+\c@lstlisting=\count108
+ (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen128
+\scratchbox=\box33
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen129
+\MPnumerator=\count113
+\everyMPtoPDFconversion=\toks30
+) (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 153.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 153.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 153.
+ [1
+
+\openout4 = `DraftFYPReport.ist'.
+
+{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
+(./DraftFYPReport.toc [2])
+\tf@toc=\write8
+\openout8 = `DraftFYPReport.toc'.
+
+ [3] [4] [5]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [6] [7] [8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 306.
+
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
+ [9] [10]
+Overfull \hbox (30.9426pt too wide) in paragraph at lines 352--354
+\OT1/cmr/m/n/12 The most pop-u-lar maps which are used on most web-sites use th
+e google maps API. Code.google.com
+ []
+
+[11] [12] <MainView.png, id=50, 323.2075pt x 506.89375pt>
+File: MainView.png Graphic file (type png)
+ <use MainView.png>
+<upload.png, id=52, 322.20375pt x 506.89375pt>
+File: upload.png Graphic file (type png)
+ <use upload.png>
+<instruct.png, id=53, 324.21124pt x 506.89375pt>
+File: instruct.png Graphic file (type png)
+ <use instruct.png> [13]
+[14] [15] <class.png, id=64, 711.65875pt x 410.53375pt>
+File: class.png Graphic file (type png)
+ <use class.png>
+
+LaTeX Warning: Float too large for page by 50.34898pt on input line 530.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[16] [17]
+Overfull \hbox (123.0453pt too wide) in paragraph at lines 599--599
+[]\OT1/cmtt/m/n/12 // Starts the asynchronous request which calls for all the r
+ubbish items from the remote server.[] 
+ []
+
+
+Overfull \hbox (203.32034pt too wide) in paragraph at lines 603--603
+[]    \OT1/cmtt/m/n/12 NSArray *documentPaths = NSSearchPathForDirectoriesInDom
+ains(NSDocumentDirectory, NSUserDomainMask, YES);[] 
+ []
+
+
+Overfull \hbox (11.89525pt too wide) in paragraph at lines 605--605
+[]    \OT1/cmtt/m/n/12 databasePath = [documentsDir stringByAppendingPathCompon
+ent:databaseName];[] 
+ []
+
+
+Overfull \hbox (92.17029pt too wide) in paragraph at lines 607--607
+[]\OT1/cmtt/m/n/12 NSURL *url = [NSURL URLWithString:@"http://www.skynet.ie/~pa
+russ/iPhone/getLocations.php"];[] 
+ []
+
+[18]
+Overfull \hbox (166.27032pt too wide) in paragraph at lines 636--636
+[]\OT1/cmtt/m/n/12 const char *sqlStatement = "insert into cache(id, timestamp,
+ latitude, longitude) VALUES (?, ?, ?, ?)";[] 
+ []
+
+[19]
+Overfull \hbox (18.07025pt too wide) in paragraph at lines 638--638
+[]\OT1/cmtt/m/n/12 if(sqlite3_prepare_v2(database, sqlStatement, -1, &addStmt, 
+NULL) != SQLITE_OK)[] 
+ []
+
+
+Overfull \hbox (48.94527pt too wide) in paragraph at lines 639--639
+[]\OT1/cmtt/m/n/12 NSAssert1(0, @"Error while creating add statement. '%s'", sq
+lite3_errmsg(database));[] 
+ []
+
+
+Overfull \hbox (67.47028pt too wide) in paragraph at lines 662--662
+[]\OT1/cmtt/m/n/12 NSURL *url = [NSURL URLWithString:@"http://www.skynet.ie/~pa
+russ/iPhone/Uploader.php"];[] 
+ []
+
+[20] [21] [22] (./DraftFYPReport.gls [23]
+Overfull \hbox (40.08588pt too wide) in paragraph at lines 87--87
+[]\OT1/cmr/bx/n/12 sqlite \OT1/cmr/m/n/12 a soft-ware li-brary that im-ple-ment
+s a self-contained, server-less, zero-configuration,transactional
+ []
+
+[24]) (./DraftFYPReport.acr) [25]
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 35.
+See the caption package documentation for explanation.
+
+[26 <./MainView.png>] [27 <./upload.png>] [28 <./instruct.png>] [29 <./class.pn
+g>] (./DraftFYPReport.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6565 strings out of 493747
+ 100450 string characters out of 3143546
+ 190444 words of memory out of 3000000
+ 9757 multiletter control sequences out of 15000+200000
+ 10828 words of font info for 38 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 38i,9n,73p,1184b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
+r/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on DraftFYPReport.pdf (30 pages, 559001 bytes).
+PDF statistics:
+ 137 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

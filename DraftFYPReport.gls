@@ -1,0 +1,106 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossaryentryfield{3gs}{\glsnamefont{3GS}}{Third generation of the iPhone }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4}}}\glsgroupskip
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossaryentryfield{api}{\glsnamefont{API}}{Set of rules or specifications which a software program can follow. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5}\delimN 
+		\setentrycounter{page}\glsnumberformat{8\delimN 9}\delimN 
+		\setentrycounter{page}\glsnumberformat{11\delimR 14}\delimN 
+		\setentrycounter{page}\glsnumberformat{16}\delimN 
+		\setentrycounter{page}\glsnumberformat{21}}}%
+\glossaryentryfield{appstore}{\glsnamefont{App Store}}{An application used on iPhone devices to download native and third party applications }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{7}}}%
+\glossaryentryfield{asihttp}{\glsnamefont{ASIHTTPRequest}}{an easy to use wrapper around the CFNetwork API that makes some of the more tedious aspects of communicating with web servers easier. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{cfnetwork}{\glsnamefont{CFNetwork}}{A framework in the Core Services framework that provides a library of abstractions for network protocols.. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}%
+\glossaryentryfield{cocoatouch}{\glsnamefont{cocoa touch}}{An API for developing user interfaces for iOS devices}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{8}\delimN 
+		\setentrycounter{page}\glsnumberformat{23}}}%
+\glossaryentryfield{coreloc}{\glsnamefont{Core Location}}{The Core Location framework lets you determine the current location or heading associated with a device. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{8}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossaryentryfield{ftp}{\glsnamefont{FTP}}{File Transfer Protocol. Network protocol used to transfer files }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossaryentryfield{geocaching}{\glsnamefont{Geocaching}}{A pastime in which objects are hidden at secret locations for participants to find using GPS positions posted on the Internet. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4}\delimN 
+		\setentrycounter{page}\glsnumberformat{7}}}%
+\glossaryentryfield{googlemaps}{\glsnamefont{Google Maps}}{A web mapping service provided by Google }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}\delimN 
+		\setentrycounter{page}\glsnumberformat{21}}}%
+\glossaryentryfield{gps}{\glsnamefont{GPS}}{Global positioning system }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4}\delimN 
+		\setentrycounter{page}\glsnumberformat{7\delimN 8}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glossaryentryfield{http}{\glsnamefont{HTTP}}{Hyper Text Transfer Protocol}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{I}\relax \glsresetentrylist %
+\glossaryentryfield{ibaction}{\glsnamefont{IBAction}}{ Identifier used to qualify an instance-variable declaration so that Interface Builder can synchronize the display and connection of outlets with Xcode. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{16}}}%
+\glossaryentryfield{ios}{\glsnamefont{iOS}}{Stands for iPhone Operating System is a mobile operating system for use with Apple mobile devices. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4\delimN 5}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}\delimN 
+		\setentrycounter{page}\glsnumberformat{10}}}%
+\glossaryentryfield{iphone}{\glsnamefont{iPhone}}{A line of internet and multimedia enabled smartphones designed and marketed by Apple inc. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4}\delimN 
+		\setentrycounter{page}\glsnumberformat{7\delimN 8}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}}}\glsgroupskip
+\glsgroupheading{M}\relax \glsresetentrylist %
+\glossaryentryfield{macos}{\glsnamefont{Mac Os X}}{Unix based operating system developed by Apple}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{8}}}%
+\glossaryentryfield{mapkit}{\glsnamefont{MapKit}}{Framework for developing map applications for iOS devices}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{11}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}}}%
+\glossaryentryfield{mysql}{\glsnamefont{MySQL}}{Relational Database management system }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5}\delimN 
+		\setentrycounter{page}\glsnumberformat{10}}}\glsgroupskip
+\glsgroupheading{N}\relax \glsresetentrylist %
+\glossaryentryfield{nsdefault}{\glsnamefont{NSUserDefaults}}{Provides access to the default settings in the device.}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{8}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{objectc}{\glsnamefont{Objective C}}{Object oriented programming language }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4\delimN 5}}}%
+\glossaryentryfield{ocunit}{\glsnamefont{OCUnit}}{Request to remote server where further code cannot be executed until the request has finished}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{22}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{php}{\glsnamefont{PHP}}{Server side scripting language which is HTML embedded. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5}\delimN 
+		\setentrycounter{page}\glsnumberformat{21\delimN 22}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{rest}{\glsnamefont{REST}}{Representational state transfer}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{sdk}{\glsnamefont{SDK}}{Software development kit. When spoken about in this document referring the the iPhone OS SDK. This is a software development kit which provides tools to develop iPhone applications. The development kit is available to third party developers.}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{7}\delimN 
+		\setentrycounter{page}\glsnumberformat{9}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}}}%
+\glossaryentryfield{smartphone}{\glsnamefont{Smartphone}}{A telephone that provides additional information accessing features. Any mobile telephone that combines voice services with e-mail, fax, pager or Internet access is called a smart phone. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5\delimN 6}}}%
+\glossaryentryfield{soap}{\glsnamefont{SOAP}}{Simple object access protocol}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}%
+\glossaryentryfield{sqlite}{\glsnamefont{sqlite}}{a software library that implements a self-contained, serverless, zero-configuration,transactional SQL database engine. }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{10\delimN 11}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossaryentryfield{tcp}{\glsnamefont{TCP}}{Transmission control protocol}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}\delimN 
+		\setentrycounter{page}\glsnumberformat{23}}}\glsgroupskip
+\glsgroupheading{U}\relax \glsresetentrylist %
+\glossaryentryfield{udp}{\glsnamefont{UDP}}{user datagram protocol}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}%
+\glossaryentryfield{ui}{\glsnamefont{UI}}{ User interface }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{5\delimR 7}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}}}%
+\glossaryentryfield{uimage}{\glsnamefont{UIImagePickerController}}{class manages customisable, system-supplied user interfaces for taking pictures and movies on supported devices, and for choosing saved images and movies for use in your app. An image picker controller manages user interactions and delivers the results of those interactions to a delegate object.}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{7}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}}}\glsgroupskip
+\glsgroupheading{X}\relax \glsresetentrylist %
+\glossaryentryfield{xcode}{\glsnamefont{XCode}}{Development environment for Mac OS applications }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{4\delimN 5}\delimN 
+		\setentrycounter{page}\glsnumberformat{8}\delimN 
+		\setentrycounter{page}\glsnumberformat{22}}}%
+\end{theglossary}\glossarypostamble
