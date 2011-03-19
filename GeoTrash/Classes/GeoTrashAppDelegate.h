@@ -13,10 +13,12 @@
 @interface GeoTrashAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     GeoTrashViewController *viewController;
+	UINavigationController *myNavController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet GeoTrashViewController *viewController;
+@property (nonatomic, retain) IBOutlet UINavigationController *myNavController;
 
 @end
 

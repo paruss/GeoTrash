@@ -12,7 +12,7 @@
 @implementation GeoTrashAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+@synthesize viewController, myNavController;
 
 
 #pragma mark -
@@ -21,13 +21,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+	[window addSubview:myNavController.view];
     // Add the view controller's view to the window and display.
-    [window addSubview:viewController.view];
+    //[window addSubview:viewController.view];
     [window makeKeyAndVisible];
 
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -79,6 +80,7 @@
 
 
 - (void)dealloc {
+	[myNavController release];
     [viewController release];
     [window release];
     [super dealloc];

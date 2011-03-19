@@ -12,7 +12,6 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* GeoTrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GeoTrashViewController.m */; };
 		F33DFC0E130807C900A33A2F /* Cache.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F33DFC0D130807C900A33A2F /* Cache.sqlite */; };
 		F33DFC92130813AF00A33A2F /* AnimalDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = F33DFC91130813AF00A33A2F /* AnimalDatabase.sql */; };
@@ -22,7 +21,13 @@
 		FF108C5C1326C0F1009C7194 /* design.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF108C5B1326C0F1009C7194 /* design.xib */; };
 		FF163BB8132EAEE700CE589D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF163BB6132EAEE700CE589D /* MapViewController.m */; };
 		FF163BB9132EAEE700CE589D /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF163BB7132EAEE700CE589D /* MapViewController.xib */; };
+		FF1BAAF0132FCD1C00346E0B /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1BAAEF132FCD1C00346E0B /* TestCase.m */; };
+		FF1BAAF1132FCD2600346E0B /* TestCase.h in Sources */ = {isa = PBXBuildFile; fileRef = FF1BAAEE132FCD1C00346E0B /* TestCase.h */; };
+		FF1BAB3A132FEBAA00346E0B /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1BAB38132FEBAA00346E0B /* ImageView.m */; };
+		FF1BAB851330103800346E0B /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1BAB38132FEBAA00346E0B /* ImageView.m */; };
+		FF1BAD751331236B00346E0B /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1BAD741331236B00346E0B /* ImageViewController.xib */; };
 		FF21637C12E1CD6700305C74 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF21637B12E1CD6700305C74 /* Annotation.m */; };
+		FF3BF438132F856000BC0FB9 /* Updater.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BF437132F856000BC0FB9 /* Updater.m */; };
 		FF62F34412FF3FDB0022FEAF /* TrashPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = FF62F34312FF3FDB0022FEAF /* TrashPiece.m */; };
 		FF6FD0D912C3A8AE00B69FA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6FD0D812C3A8AE00B69FA8 /* MapKit.framework */; };
 		FF6FD0FD12C3A8E500B69FA8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6FD0FC12C3A8E500B69FA8 /* CoreLocation.framework */; };
@@ -47,6 +52,7 @@
 		FFA7E9A212CDF1F500BFBC7B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7E9A112CDF1F500BFBC7B /* SystemConfiguration.framework */; };
 		FFA7E9A412CDF20200BFBC7B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7E9A312CDF20200BFBC7B /* MobileCoreServices.framework */; };
 		FFA7E9A612CDF21C00BFBC7B /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7E9A512CDF21C00BFBC7B /* libz.1.2.3.dylib */; };
+		FFE13B081332AD46008234B5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE13B071332AD46008234B5 /* MainWindow.xib */; };
 		FFF8F0A412D8ADD6005F0A1A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF8F0A212D8ADD6005F0A1A /* MainViewController.m */; };
 		FFF8F0A512D8ADD6005F0A1A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFF8F0A312D8ADD6005F0A1A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
@@ -58,7 +64,6 @@
 		1D6058910D05DD3D006BFB54 /* GeoTrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* GeoTrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoTrashViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* GeoTrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoTrashViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,8 +79,18 @@
 		FF163BB5132EAEE700CE589D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		FF163BB6132EAEE700CE589D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		FF163BB7132EAEE700CE589D /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MapViewController.xib; path = Classes/MapViewController.xib; sourceTree = "<group>"; };
+		FF1BA950132FB2E500346E0B /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		FF1BA99C132FB71F00346E0B /* UnitTestBundle.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestBundle.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1BA99D132FB71F00346E0B /* UnitTestBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTestBundle-Info.plist"; sourceTree = "<group>"; };
+		FF1BAAEE132FCD1C00346E0B /* TestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCase.h; sourceTree = "<group>"; };
+		FF1BAAEF132FCD1C00346E0B /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
+		FF1BAB37132FEBAA00346E0B /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageView.h; path = ../ImageView.h; sourceTree = "<group>"; };
+		FF1BAB38132FEBAA00346E0B /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageView.m; path = ../ImageView.m; sourceTree = "<group>"; };
+		FF1BAD741331236B00346E0B /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImageViewController.xib; path = Classes/ImageViewController.xib; sourceTree = "<group>"; };
 		FF21637A12E1CD6700305C74 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		FF21637B12E1CD6700305C74 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		FF3BF436132F856000BC0FB9 /* Updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Updater.h; sourceTree = "<group>"; };
+		FF3BF437132F856000BC0FB9 /* Updater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Updater.m; sourceTree = "<group>"; };
 		FF62F34212FF3FDB0022FEAF /* TrashPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrashPiece.h; sourceTree = "<group>"; };
 		FF62F34312FF3FDB0022FEAF /* TrashPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrashPiece.m; sourceTree = "<group>"; };
 		FF6FD0D812C3A8AE00B69FA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -117,6 +132,7 @@
 		FFA7E9A112CDF1F500BFBC7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FFA7E9A312CDF20200BFBC7B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FFA7E9A512CDF21C00BFBC7B /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		FFE13B071332AD46008234B5 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Classes/MainWindow.xib; sourceTree = "<group>"; };
 		FFF8F0A112D8ADD6005F0A1A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		FFF8F0A212D8ADD6005F0A1A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FFF8F0A312D8ADD6005F0A1A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
@@ -140,6 +156,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF1BA999132FB71F00346E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -147,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				FF9F524F1327D73000F0F4F2 /* Trash */,
-				FF9F524E1327D71800F0F4F2 /* Cache */,
+				FF9F524E1327D71800F0F4F2 /* DataManager */,
 				FF9F524D1327D6E800F0F4F2 /* Location */,
 				FF9F524C1327D6C200F0F4F2 /* Main */,
 				FFA2949B130C2C0100FD0FE6 /* ASIHTTPRequest */,
@@ -159,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* GeoTrash.app */,
+				FF1BA99C132FB71F00346E0B /* UnitTestBundle.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,11 +190,14 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				FF3BF4AA132F939E00BC0FB9 /* Tests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				FF1BA950132FB2E500346E0B /* UnitTest-Info.plist */,
+				FF1BA99D132FB71F00346E0B /* UnitTestBundle-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -187,14 +214,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FF1BAD741331236B00346E0B /* ImageViewController.xib */,
 				FF163BB7132EAEE700CE589D /* MapViewController.xib */,
 				F33DFCAF1308169000A33A2F /* Cache1.sql */,
 				F33DFC91130813AF00A33A2F /* AnimalDatabase.sql */,
+				FFE13B071332AD46008234B5 /* MainWindow.xib */,
 				F33DFC0D130807C900A33A2F /* Cache.sqlite */,
 				FFA6EAC813045EAE007BD0C3 /* LocCache.sql */,
 				FF06583012E361F80061367E /* AnnotationViewController.xib */,
 				FFF8F0A312D8ADD6005F0A1A /* MainViewController.xib */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* GeoTrash-Info.plist */,
 				FFA7E71312CB620700BFBC7B /* GeoTrashViewController.xib */,
 				FF108C5B1326C0F1009C7194 /* design.xib */,
@@ -219,9 +247,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF3BF4AA132F939E00BC0FB9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1BAAEE132FCD1C00346E0B /* TestCase.h */,
+				FF1BAAEF132FCD1C00346E0B /* TestCase.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 		FF9F524C1327D6C200F0F4F2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FF1BAB37132FEBAA00346E0B /* ImageView.h */,
+				FF1BAB38132FEBAA00346E0B /* ImageView.m */,
 				FFF8F0A112D8ADD6005F0A1A /* MainViewController.h */,
 				FFF8F0A212D8ADD6005F0A1A /* MainViewController.m */,
 				28D7ACF70DDB3853001CB0EB /* GeoTrashViewController.m */,
@@ -251,13 +290,15 @@
 			name = Location;
 			sourceTree = "<group>";
 		};
-		FF9F524E1327D71800F0F4F2 /* Cache */ = {
+		FF9F524E1327D71800F0F4F2 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
 				FFA1D0BD12E62B98007F7B8B /* Cacher.m */,
 				FFA1D0BC12E62B98007F7B8B /* Cacher.h */,
+				FF3BF436132F856000BC0FB9 /* Updater.h */,
+				FF3BF437132F856000BC0FB9 /* Updater.m */,
 			);
-			name = Cache;
+			name = DataManager;
 			sourceTree = "<group>";
 		};
 		FF9F524F1327D73000F0F4F2 /* Trash */ = {
@@ -318,6 +359,24 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* GeoTrash.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FF1BA99B132FB71F00346E0B /* UnitTestBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1BA9A0132FB72000346E0B /* Build configuration list for PBXNativeTarget "UnitTestBundle" */;
+			buildPhases = (
+				FF1BA997132FB71F00346E0B /* Resources */,
+				FF1BA998132FB71F00346E0B /* Sources */,
+				FF1BA999132FB71F00346E0B /* Frameworks */,
+				FF1BA99A132FB71F00346E0B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestBundle;
+			productName = UnitTestBundle;
+			productReference = FF1BA99C132FB71F00346E0B /* UnitTestBundle.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -338,6 +397,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* GeoTrash */,
+				FF1BA99B132FB71F00346E0B /* UnitTestBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +407,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				FFA7E71412CB620700BFBC7B /* GeoTrashViewController.xib in Resources */,
 				FFF8F0A512D8ADD6005F0A1A /* MainViewController.xib in Resources */,
 				FF06583212E361F80061367E /* AnnotationViewController.xib in Resources */,
@@ -359,10 +418,35 @@
 				FF9F52671327D8D100F0F4F2 /* GeoTrash.xcclassmodel in Resources */,
 				FF9F52701327D96B00F0F4F2 /* Classes_1.xcclassmodel in Resources */,
 				FF163BB9132EAEE700CE589D /* MapViewController.xib in Resources */,
+				FF1BAD751331236B00346E0B /* ImageViewController.xib in Resources */,
+				FFE13B081332AD46008234B5 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BA997132FB71F00346E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF1BA99A132FB71F00346E0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\" 1> /tmp/RunUnitTests.out\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -381,6 +465,7 @@
 				FFA7E96C12CCFF3500BFBC7B /* ASIHTTPRequest.m in Sources */,
 				FFA7E96D12CCFF3500BFBC7B /* ASIInputStream.m in Sources */,
 				FFA7E96E12CCFF3500BFBC7B /* ASINetworkQueue.m in Sources */,
+				FF1BAB851330103800346E0B /* ImageView.m in Sources */,
 				FFA7E98112CCFF6D00BFBC7B /* Reachability.m in Sources */,
 				FFF8F0A412D8ADD6005F0A1A /* MainViewController.m in Sources */,
 				FF21637C12E1CD6700305C74 /* Annotation.m in Sources */,
@@ -389,6 +474,17 @@
 				FF62F34412FF3FDB0022FEAF /* TrashPiece.m in Sources */,
 				FF9F52761327E02900F0F4F2 /* ImagePicker.m in Sources */,
 				FF163BB8132EAEE700CE589D /* MapViewController.m in Sources */,
+				FF3BF438132F856000BC0FB9 /* Updater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1BA998132FB71F00346E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1BAAF1132FCD2600346E0B /* TestCase.h in Sources */,
+				FF1BAAF0132FCD1C00346E0B /* TestCase.m in Sources */,
+				FF1BAB3A132FEBAA00346E0B /* ImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +528,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -447,6 +543,59 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		FF1BA99E132FB72000346E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "UnitTestBundle-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTestBundle;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF1BA99F132FB72000346E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "UnitTestBundle-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTestBundle;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -467,6 +616,15 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1BA9A0132FB72000346E0B /* Build configuration list for PBXNativeTarget "UnitTestBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1BA99E132FB72000346E0B /* Debug */,
+				FF1BA99F132FB72000346E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

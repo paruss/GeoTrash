@@ -6,15 +6,11 @@
 	<dict>
 		<key>AnimalDatabase.sql</key>
 		<data>
-		cZOgpQsweIZWGLfcvOlSqL4kgbA=
+		FNcv9THdocpW+5auuhf+QX8+gs4=
 		</data>
 		<key>AnnotationViewController.nib</key>
 		<data>
-		b4iNpg5XQuD47S2J2ued0/zpJoY=
-		</data>
-		<key>Cache.sql</key>
-		<data>
-		wocTU5w1wlrh6MssTsG1v9Yi5/o=
+		03X/RUM/OXkanDNneHqCNGp5P3w=
 		</data>
 		<key>Cache.sqlite</key>
 		<data>
@@ -23,10 +19,6 @@
 		<key>Cache1.sql</key>
 		<data>
 		J8oZ5vMAW1cAe68fzFLmr9Jz1+w=
-		</data>
-		<key>Cache2.sql</key>
-		<data>
-		dpDzVTwK9M59U/wnJM+0fyTIyQA=
 		</data>
 		<key>Classes_1.xcclassmodel/elements</key>
 		<data>
@@ -46,7 +38,11 @@
 		</data>
 		<key>GeoTrashViewController.nib</key>
 		<data>
-		ZSi0Ex3yO4bdJV+Dx8AXQkCBtaA=
+		jakAGEQPed93k90QHhtAkrPooiw=
+		</data>
+		<key>ImageViewController.nib</key>
+		<data>
+		vnflF+iXhAUllEJKsf4+CCkerRE=
 		</data>
 		<key>LocCache.sql</key>
 		<data>
@@ -54,19 +50,15 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		fkNKeqqGVnhx4XfOLjeF2F5zuTE=
+		sKUH0w6R/pcwfW3u3KYhUZH6aZI=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		awuSDMqY7tZZHBLfAR3+SKihNRA=
-		</data>
-		<key>MapView.nib</key>
-		<data>
-		WBa7s6f8aV9fOlsr3oEOpPGsgPU=
+		kis1AxOwV1yuBn/Rl68UhY4cLqY=
 		</data>
 		<key>MapViewController.nib</key>
 		<data>
-		K3C9hCqNMZOWJGNkOjXpyU1sPvk=
+		D9ZCuay7rZoRPS15ungJaqDpH/U=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -74,7 +66,7 @@
 		</data>
 		<key>design.nib</key>
 		<data>
-		sTjl/DWFfJV4v1nlQznBct+wlXM=
+		qRWwFmRP+ARI+u6zfRiwLG+he9A=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

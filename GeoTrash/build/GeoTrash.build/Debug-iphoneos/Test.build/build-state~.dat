@@ -1,0 +1,124 @@
+TTest
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
+c000000004CC11AC600000000000008A5
+t1287723718
+s2213
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/LogicTests.h
+c000000004D7F5CD400000000000000EA
+t1300192468
+s234
+i<SenTestingKit/SenTestingKit.h>
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/LogicTests.m
+c000000004D7F5CD400000000000000CB
+t1300192468
+s203
+i"LogicTests.h"
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest.dSYM
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest/Info.plist
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest/Test
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv6/LogicTests.o
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv7/LogicTests.o
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Script-FF3BF484132F930D00BC0FB9.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/ZL/ZLlMgtawHzG3h7NpWZvmpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-agaphdrgyqylrqfxdpyinefqhdhv/Cocoa.h.gch
+t2
+s0
+
+N/var/folders/ZL/ZLlMgtawHzG3h7NpWZvmpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hjarbmrjwsskbpcyuyrwnoxnbwyj/Cocoa.h.gch
+t2
+s0
+
+NTest-Info.plist
+c000000004D7F5B8D00000000000002BC
+t1300192141
+s700
+
+CCompileC build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv6/LogicTests.o /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/LogicTests.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv7/LogicTests.o /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/LogicTests.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCreateUniversalBinary /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest/Test normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest.dSYM /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest/Test
+r0
+
+CLd /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv6/Test normal armv6
+r0
+
+CLd /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Objects-normal/armv7/Test normal armv7
+r0
+
+CPhaseScriptExecution "Run Script" /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/GeoTrash.build/Debug-iphoneos/Test.build/Script-FF3BF484132F930D00BC0FB9.sh
+r0
+
+CProcessInfoPlistFile /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest/Info.plist Test-Info.plist
+r0
+
+CProcessPCH /var/folders/ZL/ZLlMgtawHzG3h7NpWZvmpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-agaphdrgyqylrqfxdpyinefqhdhv/Cocoa.h.gch /System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/ZL/ZLlMgtawHzG3h7NpWZvmpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-hjarbmrjwsskbpcyuyrwnoxnbwyj/Cocoa.h.gch /System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/build/Debug-iphoneos/Test.octest
+r0
+

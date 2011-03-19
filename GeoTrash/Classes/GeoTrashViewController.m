@@ -20,36 +20,47 @@ enum
 @implementation GeoTrashViewController
 
 
-@synthesize theImageView, sentPhoto, takePhoto, lat, lon, CLController, mapAnnotations, mapView, annotationViewController, cacher;
+@synthesize currentImage, sentPhoto, takePhoto, lat, lon, CLController, mapAnnotations, mapView, annotationViewController, cacher, imageView;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 
 - (void)viewDidLoad {
+	// create a custom navigation bar button and set it to always says "Back"
+	UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
+	temporaryBarButtonItem.title = @"Back";
+	self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
+	[temporaryBarButtonItem release];
+	
 	CLController = [[Location alloc] init];
 	CLController.delegate = self;
 	[CLController.locMgr startUpdatingLocation];
     [super viewDidLoad];
+	
+
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     // bring back the toolbar
     [self.navigationController setToolbarHidden:NO animated:NO];
-}
-
--(IBAction) getPhoto:(id) sender{
-	// load the image picker view
-	UIImagePickerController * picker = [[UIImagePickerController alloc] init];
-	picker.delegate = self;
 	
-	if((UIButton *) sender == sentPhoto) {
-		picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
-	} else {
-		picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+	
+	// If an image has been taken display the view to select to upload it or not.
+	
+	if (currentImage != nil)
+	{
+		
+		ImageView *imgView = [[ImageView alloc] initWithNibName:@"ImageViewController" bundle:nil];
+		
+		[self.view.superview addSubview:imgView.view];	
+		imgView.theImageView.image = currentImage;
+		[self.navigationController setToolbarHidden:YES animated:NO];
+		
 	}
-	//make visable
-	[self presentModalViewController:picker animated:YES];
-}
+	
+	}
+
+
 
 
 - (IBAction)sentGPS:(id)sender{
@@ -60,7 +71,7 @@ enum
 	request = [NSMutableURLRequest requestWithURL:url];
 	[request setHTTPMethod:@"POST"];
 	
-	
+	/*
 	NSData *photoData= UIImageJPEGRepresentation(self.theImageView.image, 1.0);
 	if (photoData == nil) {
 		NSLog(@"The photo is nothing !!!");
@@ -68,6 +79,7 @@ enum
 	else {
 		NSLog(@"Photo inside !!!!");
 	}
+	 */
 	
 }
 
@@ -167,7 +179,9 @@ enum
 
 -(IBAction) remMap:(id) sender{
 	
+
 [mapView removeFromSuperview];
+	
 
 }
 - (void)locationUpdate:(CLLocation *)location {
@@ -179,30 +193,16 @@ enum
 	locLong  = [NSString stringWithFormat:@"%lf", location.coordinate.longitude];
 	self.lat = locLat;
 	self.lon = locLong;
+	
+	
 }
 
 - (void)locationError:(NSError *)error {
 //	locLabel.text = [error description];
 }
-	
-	- (IBAction)Update:(id)sender
-	{
-		NSString *latPost = self.lat;
-		NSString *lonPost = self.lon;
-		NSURL *url = [NSURL URLWithString:@"http://www.skynet.ie/~paruss/iPhone/Uploader.php"];
-		ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
-		[request setPostValue:lonPost forKey:@"lon"];
-		[request setPostValue:latPost forKey:@"lat"];
-		[request start]; 
-		NSError *error = [request error];
-		if (!error) {
-			
-			NSString *response = [request responseString];
-			NSLog(@"Output", response);
-		}
-	}
-	
 
+
+/*
 -(IBAction)imageUploader:(id)sender{
 	
 	NSURL *url;
@@ -221,54 +221,46 @@ enum
 	[request setPostValue:fileName forKey:@"name"];
 	[request setData:imageData forKey:@"file"];
 	[request startAsynchronous];
-	/*
-	// Initilize Queue
-	[ASINetworkQueue setUploadProgressDelegate:statusProgressView];
-	[networkQueue setRequestDidFinishSelector:@selector(imageRequestDidFinish:)];
-	[networkQueue setQueueDidFinishSelector:@selector(imageQueueDidFinish:)];
-	[networkQueue setRequestDidFailSelector:@selector(requestDidFail:)];
-	[networkQueue setShowAccurateProgress:true];
-	[networkQueue setDelegate:self];
+
+}
+*/
+ 
+-(IBAction) getPhoto:(id) sender{
 	
-	// Initilize Variables
-	NSURL *url;
-	ASIFormDataRequest * request;
+	// load the image picker view
+	imageView = [[ImageView alloc] initWithNibName:@"ImageViewController" bundle:nil];
+	[self.navigationController pushViewController:imageView animated:YES];	UIImagePickerController * picker = [[UIImagePickerController alloc] init];
+	picker.delegate = self;
 	
-	// Add Image
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
-														 NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
-	NSString *dataPath = [documentsDirectory
-						  stringByAppendingPathComponent:@"myImage.jpg"];
-	
-	// Get Image
-	NSData *imageData = [[[NSData alloc]
-						  initWithContentsOfFile:dataPath] autorelease];
-	
-	// Return if there is no image
-	if(imageData != nil){
-		
-		
-		url = [NSURL URLWithString:@"http://www.skynet.ie/~paruss/iPhone/picUploader.php"];
-		request = [[[ASIFormDataRequest alloc] initWithURL:url] autorelease];
-		[request setPostValue:fileName forKey:@"name"];
-		[request setData:imageData forKey:@"file"];
-		[request setDidFailSelector:@selector(requestWentWrong:)];
-		[request setTimeOutSeconds:500];
-		[networkQueue addOperation:request];
-		queueCount++;
+	if((UIButton *) sender == sentPhoto) {
+		picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+	} else {
+		picker.sourceType = UIImagePickerControllerSourceTypeCamera;
 	}
-	[networkQueue go];
-	 */
+	 
+	//make visable
+	[self presentModalViewController:picker animated:YES];
 }
 
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-	[picker dismissModalViewControllerAnimated:YES];
-
-
-	self.theImageView.image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 	
+	//Remove the picker
+	[picker dismissModalViewControllerAnimated:YES];
+	picker.view.hidden = YES;
+	
+	// Set the image for the image view and set the toolbar to be hidden
+	UIImage *img = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+	imageView.theImageView.image = img;
+	[self.navigationController setToolbarHidden:YES animated:NO];	
+	
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+	
+	[picker dismissModalViewControllerAnimated:YES];
+	// Remove the image view which was loaded as it would appear when cancel is selected
+	[self.navigationController popViewControllerAnimated: NO];
 }
 
 
