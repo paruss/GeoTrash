@@ -61,8 +61,6 @@ enum
 	}
 
 
-
-
 - (IBAction)sentGPS:(id)sender{
 	
 	NSURL *url;
@@ -70,16 +68,6 @@ enum
 
 	request = [NSMutableURLRequest requestWithURL:url];
 	[request setHTTPMethod:@"POST"];
-	
-	/*
-	NSData *photoData= UIImageJPEGRepresentation(self.theImageView.image, 1.0);
-	if (photoData == nil) {
-		NSLog(@"The photo is nothing !!!");
-	}
-	else {
-		NSLog(@"Photo inside !!!!");
-	}
-	 */
 	
 }
 
@@ -201,29 +189,6 @@ enum
 //	locLabel.text = [error description];
 }
 
-
-/*
--(IBAction)imageUploader:(id)sender{
-	
-	NSURL *url;
-	int randomNumber = (random() % 25000);
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
-														 NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
-	NSString *dataPath = [documentsDirectory
-						  stringByAppendingPathComponent:@"myImage.jpg"];
-	NSString *fileName = [NSString stringWithFormat:@"%d",randomNumber];
-	url = [NSURL URLWithString:@"http://www.skynet.ie/~paruss/iPhone/picUploader.php"];
-	ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
-	
-	NSData *imageData = [[[NSData alloc]
-						  initWithContentsOfFile:dataPath] autorelease];
-	[request setPostValue:fileName forKey:@"name"];
-	[request setData:imageData forKey:@"file"];
-	[request startAsynchronous];
-
-}
-*/
  
 -(IBAction) getPhoto:(id) sender{
 	

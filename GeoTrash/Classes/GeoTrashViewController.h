@@ -52,8 +52,7 @@
 @property (nonatomic, retain) ImageView *imageView;
 
 
-- (IBAction)imageUploader:(id)sender;
-- (IBAction)getPhoto:(id)sender;
+
 - (IBAction)loadMap:(id)sender;
 - (IBAction)sentGPS:(id)sender;
 - (IBAction)populateLocationList:(id)sender;
