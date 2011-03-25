@@ -17,6 +17,11 @@ c000000004CC10EAD00000000000004CF
 t1287720621
 s1231
 
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
 c000000004CC10F1C0000000000001466
 t1287720732
@@ -33,9 +38,9 @@ t1286857912
 s16556
 
 N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/Classes/../ImageView.m
-c000000004D8494DD0000000000000AA3
-t1300534493
-s2723
+c000000004D8C794F0000000000001277
+t1301051727
+s4727
 i"ImageView.h"
 i"ASIFormDataRequest.h"
 i"ASINetworkQueue.h"
@@ -68,8 +73,8 @@ i"ASIProgressDelegate.h"
 i"ASICacheDelegate.h"
 
 N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/Classes/ASIHTTPRequestConfig.h
-c000000004D84952D00000000000003B0
-t1300534573
+c000000004D849FC400000000000003B0
+t1300537284
 s944
 
 N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/Classes/ASIHTTPRequestDelegate.h
@@ -90,21 +95,30 @@ c000000004D7E81DB0000000000000678
 t1300136411
 s1656
 
+N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/Classes/Location.h
+c000000004D7E81DB00000000000002CA
+t1300136411
+s714
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
 N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/ImageView.h
-c000000004D8356C40000000000000160
-t1300453060
-s352
+c000000004D8C794F000000000000033A
+t1301051727
+s826
 i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"Location.h"
 
 N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/LogicTests.h
-c000000004D7F5CD400000000000000EA
-t1300192468
+c000000004D849FC400000000000000EA
+t1300537284
 s234
 i<SenTestingKit/SenTestingKit.h>
 
 N/Users/patrickrussell/Desktop/GeoTrash/GeoTrash/TestCase.m
-c000000004D7F95E90000000000000070
-t1300207081
+c000000004D849FC40000000000000070
+t1300537284
 s112
 i"LogicTests.h"
 
@@ -164,8 +178,8 @@ t2
 s0
 
 NUnitTestBundle-Info.plist
-c000000004D7F7F9F00000000000002BC
-t1300201375
+c000000004D849FC400000000000002BC
+t1300537284
 s700
 
 CCompileC build/GeoTrash.build/Debug-iphoneos/UnitTestBundle.build/Objects-normal/armv6/ImageView.o /Users/patrickrussell/Desktop/GeoTrash/GeoTrash/Classes/../ImageView.m normal armv6 objective-c com.apple.compilers.gcc.4_2

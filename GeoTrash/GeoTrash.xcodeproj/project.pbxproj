@@ -53,6 +53,7 @@
 		FFA7E9A412CDF20200BFBC7B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7E9A312CDF20200BFBC7B /* MobileCoreServices.framework */; };
 		FFA7E9A612CDF21C00BFBC7B /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA7E9A512CDF21C00BFBC7B /* libz.1.2.3.dylib */; };
 		FFE13B081332AD46008234B5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE13B071332AD46008234B5 /* MainWindow.xib */; };
+		FFF0E5A6133CB19200A4FBF7 /* CurrentLocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF0E5A5133CB19200A4FBF7 /* CurrentLocationHandler.m */; };
 		FFF8F0A412D8ADD6005F0A1A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF8F0A212D8ADD6005F0A1A /* MainViewController.m */; };
 		FFF8F0A512D8ADD6005F0A1A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFF8F0A312D8ADD6005F0A1A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
@@ -133,6 +134,8 @@
 		FFA7E9A312CDF20200BFBC7B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FFA7E9A512CDF21C00BFBC7B /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
 		FFE13B071332AD46008234B5 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Classes/MainWindow.xib; sourceTree = "<group>"; };
+		FFF0E5A4133CB19200A4FBF7 /* CurrentLocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentLocationHandler.h; sourceTree = "<group>"; };
+		FFF0E5A5133CB19200A4FBF7 /* CurrentLocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationHandler.m; sourceTree = "<group>"; };
 		FFF8F0A112D8ADD6005F0A1A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		FFF8F0A212D8ADD6005F0A1A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FFF8F0A312D8ADD6005F0A1A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
@@ -260,6 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				FF1BAB37132FEBAA00346E0B /* ImageView.h */,
+				FFF0E5A4133CB19200A4FBF7 /* CurrentLocationHandler.h */,
+				FFF0E5A5133CB19200A4FBF7 /* CurrentLocationHandler.m */,
 				FF1BAB38132FEBAA00346E0B /* ImageView.m */,
 				FFF8F0A112D8ADD6005F0A1A /* MainViewController.h */,
 				FFF8F0A212D8ADD6005F0A1A /* MainViewController.m */,
@@ -475,6 +480,7 @@
 				FF9F52761327E02900F0F4F2 /* ImagePicker.m in Sources */,
 				FF163BB8132EAEE700CE589D /* MapViewController.m in Sources */,
 				FF3BF438132F856000BC0FB9 /* Updater.m in Sources */,
+				FFF0E5A6133CB19200A4FBF7 /* CurrentLocationHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
